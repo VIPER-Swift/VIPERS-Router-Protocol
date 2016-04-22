@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VIPERS-Router-Protocol_Example', :exclusive => true do
+  pod 'VIPERS-Router-Protocol', :path => '../'
+end
+
+target 'VIPERS-Router-Protocol_Tests', :exclusive => true do
+  pod 'VIPERS-Router-Protocol', :path => '../'
+
+  
+end
