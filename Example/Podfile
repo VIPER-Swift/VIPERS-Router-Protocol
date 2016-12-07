@@ -1,11 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'VIPERS-Router-Protocol_Example', :exclusive => true do
+target 'VIPERS-Router-Protocol_Example' do
   pod 'VIPERS-Router-Protocol', :path => '../'
+  #pod 'VIPERS-Converter-Protocol', :path => '../../VIPERS-Converter-Protocol'
+  #pod 'VIPERS-Converter', :path => '../../VIPERS-Converter'
 end
 
-target 'VIPERS-Router-Protocol_Tests', :exclusive => true do
+target 'VIPERS-Router-Protocol_Tests' do
   pod 'VIPERS-Router-Protocol', :path => '../'
-
-  
 end

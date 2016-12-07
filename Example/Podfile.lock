@@ -1,0 +1,19 @@
+PODS:
+  - VIPERS-Converter-Protocol (0.1.0)
+  - VIPERS-Router-Protocol (0.1.0):
+    - VIPERS-Converter-Protocol
+
+DEPENDENCIES:
+  - VIPERS-Router-Protocol (from `../`)
+
+EXTERNAL SOURCES:
+  VIPERS-Router-Protocol:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VIPERS-Converter-Protocol: 1dfd4f62952e487187b9b7b805ac5eff6a06758e
+  VIPERS-Router-Protocol: 99eeb05700928af51b4ebb27fdd0c4eddb008631
+
+PODFILE CHECKSUM: 3fb0fefd88741431a3f04fee6fb3636aeddefe6e
+
+COCOAPODS: 1.1.0.rc.2
