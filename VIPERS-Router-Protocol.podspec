@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "VIPERS-Router-Protocol"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "Protocols for the router implementation used by the iOS application framework 'VIPERS'"
 
   s.description      = <<-DESC
