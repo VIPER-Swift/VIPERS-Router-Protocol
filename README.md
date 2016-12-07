@@ -14,7 +14,7 @@ A router is an object that maps from a routeable item (an object conforming to t
 Lets become more practical, the VIPERS default implementation of the RouterProtocol in VIPERS is the DefaultRouter.
 A default router maps from a routable string to a DefaultRoute which contains the identifier of the route (the routable string), and some parameters extracted from it.
 
-It would should look like that:
+It should look like that:
 
 ```swift
 
